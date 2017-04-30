@@ -1,18 +1,21 @@
-﻿body
+body
 {
-  font-size: 100px;
+  font-size: 6.25em;
+  font-weight: bold;
 }
 
 input
 {
-  height: 200px;
+  height: 4em;
   width: 100%;
   font-size: inherit;
+  font-weight: inherit;
 }
 
 input[type=button]
 {
   background-color:#CC99FF;
+  margin: .05em;
 }
 
 input[type=text]
@@ -23,12 +26,34 @@ input[type=text]
 input[type=number]
 {
   background-color: #FFFF99;
+  width: 3em;
+  height: 80%;
+  text-align: center;
 }
+
+hr {
+  height: 2px;
+  background-color: black;
+}
+
+div#min {
+  text-align: center;
+}
+
+input#btnApplySettings {
+  height: 2.7em;
+}
+
+p {
+  font-size: .4em;
+  margin-bottom: 0;
+}
+
 
 textarea
 {
-  width: 100%;
-  font-size: 50px;
+  width: 75%;
+  font-size: 0.2em;
 }
 
 table
